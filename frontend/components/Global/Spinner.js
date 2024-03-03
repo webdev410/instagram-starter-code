@@ -1,4 +1,9 @@
-	<svg
+import React from 'react';
+import SPINNER_SVG from '../../assets/svg/spinner.svg';
+export default function Spinner() {
+	return (
+		<div className='w-full flex justify-center'>
+			<svg
 				xmlns='http://www.w3.org/2000/svg'
 				width='25'
 				height='25'
@@ -12,3 +17,6 @@
 					d='M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z'
 				/>
 			</svg>
+		</div>
+	);
+}
