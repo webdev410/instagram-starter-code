@@ -1,5 +1,4 @@
 import React from 'react';
-import SPINNER_SVG from '../../assets/svg/spinner.svg';
 export default function Spinner() {
 	return (
 		<div className='w-full flex justify-center'>
